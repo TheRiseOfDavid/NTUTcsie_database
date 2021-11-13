@@ -1,6 +1,10 @@
 # This is a basic workflow to help you get started with Actions
 
+<<<<<<< HEAD
 name: Always Pass CI
+=======
+name: 嘻嘻
+>>>>>>> 28087c9b581e843ebb319bdaf6ceaa50392397ea
 
 # Controls when the workflow will run
 on:
@@ -22,6 +26,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+<<<<<<< HEAD
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
@@ -34,3 +39,6 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+=======
+        - run: echo Hello, world!
+>>>>>>> 28087c9b581e843ebb319bdaf6ceaa50392397ea
