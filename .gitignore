@@ -44,3 +44,8 @@ Backup of *.doc*
 
 # Visio autosave temporary files
 *.~vsd*
+
+
+# Added by cargo
+
+/target
